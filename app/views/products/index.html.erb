@@ -38,6 +38,8 @@
 <% else %>
   <li>
   <%= link_to('Login', new_user_session_path) %>
+  <%= link_to "Sign in with Google", user_google_oauth2_omniauth_authorize_path %>
   </li>
+
 <% end %>
 </div>
